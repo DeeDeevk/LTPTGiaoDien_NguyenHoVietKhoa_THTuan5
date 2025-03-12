@@ -1,0 +1,259 @@
+@import "tailwindcss";
+
+/* .container_full{
+  width: 100%;
+} */
+
+.top{
+  min-height: 60px;
+  border-bottom: #f3f3f3 solid;
+}
+
+
+/* .container{
+  display: flex;
+  flex-wrap: nowrap;
+} */
+/* 
+.container > div{
+  width: 100px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+} */
+
+.phanDau{
+  /* width: 40%; */
+  min-height: 60px;
+  /* display: flex; */
+}
+
+/* .logo{
+  width: 150px;
+  margin-top: 5px;
+} */
+
+.timKiem{
+  width: 350px;
+  /* height: 40px; */
+  border-radius: 10px;
+  /* margin-top: 10px; */
+  /* margin-left: 20px; */
+  border: hidden;
+  /* background-color: #f3f3f3; */
+  text-indent: 20px;
+  font-family: sans-serif;
+  /* font-size: 15px; */
+}
+
+.phanGiua{
+  /* width: 50%;
+  display: flex; */
+  min-height: 60px;
+}
+
+.menu{
+  /* width: 100%;
+  margin-top: 20px;
+  display: flex; */
+  gap: 20px;
+  /* margin-left: 50px; */
+}
+
+.menu > li{
+  list-style: none;
+}
+.menu > li > a{
+  text-align: center;
+  line-height: 15px;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+.menu > li > a:hover{
+  text-decoration: underline;
+}
+
+.phanCuoi{
+  width: 10%;
+  /* display: flex; */
+  min-height: 60px;
+}
+
+.yrb{
+  /* width: 5%;
+  width: 200px;
+  height: 50px;
+  margin-top: 5px; */
+  border-radius: 10px;
+  border: hidden;
+  /* background-color: #feeff5;
+  color: #ed8eb0;
+  font-size: 15px; */
+}
+
+.avt{
+  /* width: 5%;
+  margin-top: 6px;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px; */
+  border-radius: 100px;
+}
+
+
+
+.mDau{
+  width: 80%;
+  background-color: #ef4983;
+  min-height: 100px;
+  margin: auto;
+}
+
+.mDau > h1{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.avt1{
+  width: 30%;
+}
+
+.cont{
+  margin-top: 5px;
+  display: flex;
+}
+
+.cont > p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.mCuoi{
+  width: 100%;
+  background-color: aqua;
+  min-height: 300px;
+}
+
+.chuaHet{
+  display: flex;
+}
+
+.fTrai{
+  width: 50%;
+  min-height: 400px;
+}
+
+.fTrai h2{
+  margin-left: 30px;
+  margin-top: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+.fTrai p{
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #bfc2c9;
+  font-family: sans-serif;
+  font-size: 23px;
+}
+
+.fTrai input{
+  margin-left: 30px;
+  font-family: sans-serif;
+  width: 65%;
+  height: 40px;
+  font-size: 14px;
+  padding: auto;
+  border-radius: 5px;
+  text-indent: 10px;
+  border: hidden;
+}
+
+.fTrai input::placeholder{
+  color: #d6d7d9;
+}
+
+.fTrai button{
+  margin-left: 20px;
+  min-height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #ef4983;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+  border: hidden;
+}
+
+.fTraiPhiaDuoi{
+  display: flex;
+  margin-top: 200px;
+  min-height: 100px;
+  margin-left: 30px;
+}
+
+.thongTinTrai{
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: #bfc2c9;
+  font-family: sans-serif;
+}
+
+.fGiua{
+  width: 25%;
+  min-height: 400px;
+}
+
+.fGiua h2{
+  margin-left: 160px;
+  margin-top: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.fGiua ul{
+  list-style: none;
+  margin-left: 160px;
+
+}
+
+.fGiua li{
+  color: #bfc2c9;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.giuaDuoi{
+  margin-top: 190px;
+}
+
+.fPhai{
+  width: 25%;
+  min-height: 400px;
+}
+
+
+.fPhai h2{
+  margin-left: 110px;
+  margin-top: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.fPhai ul{
+  list-style: none;
+  margin-left: 110px;
+
+}
+
+.fPhai li{
+  color: #bfc2c9;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 35px;
+}
