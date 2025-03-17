@@ -1,15 +1,6 @@
-header{
-  width: 100%;
-  min-height: 60px;
-}
-
-main{
-  width: 100%;
-  min-height: 400px;
-}
-
+@import "tailwindcss";
 footer{
   border-radius: 10px;
   background-color: #1d2228;
-  min-height: 200px;
+  min-height: 400px;
 }

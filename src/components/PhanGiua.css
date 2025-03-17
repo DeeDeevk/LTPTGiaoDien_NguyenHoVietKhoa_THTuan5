@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.content{
+    min-height: 800px;
+}
+
+.duoi{
+    min-height: 550px;
+}
+
+.benPhai > img{
+    width: 70%;
+}
+
+.traiTren{
+    width: 100%;
+    height: 65%;
+}
+
+.traiTren > span{
+    font-family: sans-serif;
+}
+
+.traiDuoi{
+    height: 35%;
+}
+
+.sub{
+    font-family: sans-serif;
+    border: none;
+}
+
+.share{
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+}

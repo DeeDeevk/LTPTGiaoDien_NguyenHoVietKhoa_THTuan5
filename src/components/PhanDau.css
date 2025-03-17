@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+.top{
+    min-height: 60px;
+    border-bottom: #f3f3f3 solid;
+}
+
+/* 
+.container > div{
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+} */
+
+.logoAndSearch{
+    min-height: 60px;
+}
+
+.timKiem{
+    width: 350px;
+    border-radius: 10px;
+    border: hidden;
+    text-indent: 20px;
+    font-family: sans-serif;
+}
+
+.phanGiua{
+    min-height: 60px;
+}
+
+.menu{
+    gap: 20px;
+}
+
+.menu > li{
+    list-style: none;
+}
+.menu > li > a{
+    color: grey;
+}
+
+.menu > li > a:hover{
+    text-decoration: underline;
+}
+
+.phanCuoi{
+    min-height: 60px;
+}
+
+.yrb{
+    border-radius: 10px;
+    border: hidden;
+}
+.avt{
+    border-radius: 100px;
+}

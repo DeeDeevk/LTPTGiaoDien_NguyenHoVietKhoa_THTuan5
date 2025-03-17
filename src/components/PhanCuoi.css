@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+.fTrai{
+    min-height: 400px;
+}
+
+.fTrai h2{
+    font-family: sans-serif;
+}
+.fTrai p{
+    font-family: sans-serif;
+}
+
+.fTrai input{
+    font-family: sans-serif;
+    width: 65%;
+    padding: auto;
+    text-indent: 10px;
+    border: hidden;
+}
+
+.fTrai input::placeholder{
+    color: #d6d7d9;
+}
+
+.fTrai button{
+    min-height: 45px;
+    font-family: sans-serif;
+    border: hidden;
+}
+
+.fTraiPhiaDuoi{
+    min-height: 100px;
+}
+
+.thongTinTrai{
+    font-family: sans-serif;
+}
+
+.fGiua{
+    min-height: 400px;
+}
+
+.fGiua h2{
+    font-family: sans-serif;
+}
+
+.fGiua ul{
+    list-style: none;
+
+}
+
+.fGiua li{
+    font-family: sans-serif;
+}
+
+.fPhai{
+    min-height: 400px;
+}
+
+
+.fPhai h2{
+    font-family: sans-serif;
+}
+
+.fPhai ul{
+    list-style: none;
+}
+
+.fPhai li{
+    font-family: sans-serif;
+}
